@@ -140,14 +140,14 @@ header {
     font-family: "Montserrat", sans-serif !important;
 }
 .static-txt {
-    font-size: 22px;
+    font-size: 22px !important;
     position: relative;
     width: 210px;
 }
 .static-txt::after{
     position: absolute;
     content: "";
-    width: 210px;
+    width: 156px;
     left: 60px;
     animation: 4500ms type ease-out infinite;
 }
