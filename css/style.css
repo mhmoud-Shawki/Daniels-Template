@@ -149,7 +149,7 @@ header {
     content: "";
     width: 210px;
     left: 60px;
-    animation: 4s type infinite;
+    animation: 4500ms type ease-out infinite;
 }
 @keyframes type {
     0%{content: " L|";}
@@ -163,7 +163,7 @@ header {
     28%{content: "Larry Dan|";}
     32%{content: "Larry Dani|";}
     36%{content: "Larry Danie|";}
-    40%{content: "Larry Daniels|";}
+    40%{content: "Larry Daniels |";}
     44%{content: "D|";}
     48%{content: "De|";}
     52%{content: "Dev|";}
@@ -172,13 +172,13 @@ header {
     64%{content: "Develo|";}
     68%{content: "Develop|";}
     72%{content: "Develope|";}
-    76%{content: "Developer|";}
+    76%{content: "Developer |";}
     80%{content: "Des|";}
     84%{content: "Desi|";}
     88%{content: "Desig|";}
     92%{content: "Design|";}
     96%{content: "Designe|";}
-    100%{content: "Designer|";}
+    100%{content: "Designer |";}
 }
 .header-content h5 {
     font-size: 50px;
